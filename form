@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ukr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+	<form action ="#" methpd="post" name="comment" id="comment">
+ <p><input type="text" name="author" id="autor" value="" size="25"/>
+ Iм'я
+ </p>
+ <p><input type="text" name="email" id="email" value=""  size="25"/>
+ Пошта
+ </p>
+ <p><textarea name="comment" id="comment" cols="48" row="8"/></textarea>
+ </p>
+ <p><input type="sumbit" name="sumbit" id="sumbit" value="Надіслати"/>
+ </p>
+ </form>
+  </body>
+</html>
