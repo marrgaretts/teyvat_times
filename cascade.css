@@ -109,8 +109,14 @@ size: 32px;
 form{
 	padding:-5px 15px;
 	float:right;
+	color: #6969ff;
 }
 
+.form_comment{
+	padding:-5px 15px;
+	float:right;
+	textcolor:;
+}
  #datetime {
         font-size: 26px;
         text-align: right;
