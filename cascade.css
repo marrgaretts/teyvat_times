@@ -106,17 +106,41 @@ size: 32px;
 	color: #6969ff;
 }
 
-form{
-	padding:-5px 15px;
-	float:right;
-	color: #6969ff;
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
 }
 
-.form_comment{
-	padding:-5px 15px;
-	float:right;
-	textcolor:;
+label {
+  display: block;
+  margin-bottom: 5px;
 }
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+textarea {
+  height: 150px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
  #datetime {
         font-size: 26px;
         text-align: right;
