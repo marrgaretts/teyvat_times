@@ -139,6 +139,7 @@ form{
 h1 {
 	color: #9999FF;
 	font-size: 52px;
+	padding:100px;
 	top: 45%;
 	left: 50%;
 	transform: translate (-50%, -50%);
