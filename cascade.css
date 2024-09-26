@@ -124,11 +124,7 @@ size: 32px;
 		color: #9999ff;
 }
 
-#meteo_informer_ceff0d46c420a4191786c3f02e7434ea{
-	align: right;
-        margin-top: 500px ;
-		margin-right: 20px;
-}
+
 
 @media (min-width: 1500px) and (max-width: 2000px) {h1{font-size:72px !important}}
 @media (min-width: 1000px) and (max-width: 1499px) {h1{font-size:72px !important}}
