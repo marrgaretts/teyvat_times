@@ -125,7 +125,7 @@ size: 32px;
 }
 
 .container{
-	height:100vh;
+	height:auto;
 	display:flex;
 	align-items:center;
 	jusfity-content:center;
