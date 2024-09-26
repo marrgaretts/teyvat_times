@@ -140,7 +140,6 @@ h1 {
 	color: #9999FF;
 	font-size: 52px;
 	padding:50px 0 0 0;
-	top: 35%;
 	left: 50%;
 	transform: translate (50%, -50%);
 }
@@ -173,7 +172,7 @@ h1::before{
 
 .block1 { 
     width: 1250px; 
-	height: 350px;
+    height: 350px;
     background: #ccc;
     padding: 10px;
     padding-right: 50px; 
