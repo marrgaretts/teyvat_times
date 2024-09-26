@@ -140,13 +140,6 @@ size: 32px;
 	
 }
 
-h1{
-	fontsize:32px;
-	text-align:center;
-	color: #fff;
-	text-transform:uppercase;
-}
-
 .data_block{
 	display:flex;
 	justify-content:space-between;
