@@ -1,13 +1,56 @@
 <!DOCTYPE html>
-<html lang="ukr">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> form</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
+<html lang="uk">
+<html>
+<head>
+
+<title> Teyvat Guide </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="cascade.css">
+<link rel="stylesheet" type="text/css" href="normalize.css">
+
+</head>
+<body background="1.jpeg">
+<header>  <p align="center"> <nav id="menu">
+<ul>
+<li> <a href="index.html"> Головна </a></li>
+<li> <a href="статті.html"> Статті  </a></li>
+<li> <a href="персонажі.html"> Персонажі </a>
+<ul>  <li> <a href="index.html"> Tier List </a></li>
+      <li> <a href="index.html"> Список персонажів </a></li> </ul></li>
+<li> 
+<a href="предмети.html"> Предмети</a>
+<ul> 
+<li> <a href="index.html"> Ресурси </a></li>
+<li> <a href="index.html"> Артефакти </a></li>	
+</ul> </li>
+
+<li> <a href="географія.html"> Географія  </a></li>
+<li> <a href="form.html"> Зв'язок з нами  </a></li>
+
+</ul> </p>
+      <form action="#">
+            <input type ="text" placeholder="Login" required>
+            <input type ="password" placeholder="Password" required>
+             <input type ="sumbit" placeholder="Sing In" required>
+      </form>      
+ </nav> 
+ <div id="datetime"></div>
+    <script>
+      function updateTime() {
+        var today = new Date();
+        var date = today.toLocaleDateString();
+        var time = today.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit', second:'2-digit'});
+        var dateTimeString = date + ' ' + time;
+        document.getElementById('datetime').innerHTML = dateTimeString;
+      }
+
+      updateTime();
+      setInterval(updateTime, 1000);
+    </script>
+
+
+ </header>
 	<form action ="#" methpd="post" name="comment" id="comment">
  <p><input type="text" name="author" id="autor" value="" size="25"/>
  Iм'я
@@ -20,5 +63,5 @@
  <p><input type="sumbit" name="sumbit" id="sumbit" value="Надіслати"/>
  </p>
  </form>
-  </body>
+</body> 
 </html>
