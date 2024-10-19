@@ -142,8 +142,6 @@ h1 {
 }
 
 h1::before{
-  top:35%;
-  left: 2%;
   content:attr(content);
   position:absolute;
   padding: 78px 0 0 3px;
