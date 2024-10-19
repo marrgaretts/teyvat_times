@@ -159,15 +159,19 @@ form{
 .map svg path:hover {
     animation: hoverElement 2s linear infinite; 
 }
+
 .tooltip {
-    border-radius: 5px;
-    padding: 5px;
-    font-weight: 500;
-    background: #fff;
-    color: #000;
-    font-size: 14px;
-    position: absolute;
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding:5px;
+	background: #ffffff;
+	border-radius: 10px;
+	box-shadow: 0 0 2px rgba (0,0,0,0.3);
+	display:none;
 }
+
+
 @keyframes hoverElement { 
     0% {
         stroke: #000000;
