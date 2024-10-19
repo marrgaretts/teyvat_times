@@ -104,8 +104,8 @@ const continents = document.querySelectorAll('.continent');
 continents.forEach(continent => {
 continent.addEventListener ('mousemove', function(e){
 tooltip.innerText = this.dataset.title;
-tooltip.style.top = (e.y + 3) +'px';
-tooltip.style.left = (e.x + 3) +'px';
+tooltip.style.top = (e.y + -3) +'px';
+tooltip.style.left = (e.x + -3) +'px';
 });
 continent.addEventListener('mouseenter', function (){
 tooltip.style.display = 'block';
