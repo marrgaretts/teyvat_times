@@ -1,0 +1,209 @@
+p
+{
+size: 32px;	
+}
+
+#menu 
+{
+  position: relative;
+  display: block;
+  height: auto;
+  width: 100%;
+  z-index: 10;   
+}
+
+#menu ul
+{
+  position: relative;
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: auto;
+  list-style: none;
+}
+
+#menu > ul::after
+{
+	display: block;
+	width: 100%;
+	height: 0px;
+	clear: both;
+	content: " ";
+}
+
+#menu li a
+{
+  position: relative;
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: auto;
+  list-style: none;
+}
+#menu li
+{ 
+  list-style: none;
+  display: inline-block;
+  }
+
+#menu ul li
+{
+  position: relative;
+  display: block;
+  float: left;
+  height: auto;
+  width: auto;
+  
+}
+
+#menu ul li a
+{
+  display: block;
+  padding: 9px 25px 0px 25px;
+  font-size: 14px;
+  line-height: 1.3em;
+  text-decoration: none;
+     font-weight: bold;
+     text-transform: uppercase;
+     height: 72px;
+     box-sizing: border-box;
+     color: #9999FF;    
+}
+
+#menu ul li ul
+{
+	position: absolute;
+	top: 36px;
+	left: 0px;
+	display: none;
+	width: 200px;
+    background: #1f2026;	
+}
+
+#menu ul li:hover ul
+{
+	display: block;
+}
+
+#menu ul li ul li 
+{
+	float:none;
+	width: 100%;
+}
+
+#menu ul li ul li a
+{
+	display: block;
+	text-transform: none;
+	height: auto;
+	padding: 7px 25px;
+	width: 100%;
+	box-sizing: border-box;
+	border-top: 1px solid #ffffff;
+	color: #6969ff;
+}
+
+form{
+	padding:-5px 15px;
+	float:right;
+}
+
+ #datetime {
+        font-size: 26px;
+        text-align: right;
+        margin-top: -85px ;
+		margin-right: 20px;
+		color: #9999ff;
+}
+
+#dateetime {
+        font-size: 26px;
+        text-align: right;
+        margin-top: -630px ;
+		margin-right: 20px;
+		color: #9999ff;
+}
+
+
+
+
+@media (min-width: 1500px) and (max-width: 2000px) {h1{font-size:72px !important}}
+@media (min-width: 1000px) and (max-width: 1499px) {h1{font-size:72px !important}}
+@media (min-width: 700px) and (max-width: 999px) {h1{font-size:72px !important}}
+@media (max-width: 699px) {h1{font-size:52px !important}}
+
+.img {
+	width:100%;
+	float: center;
+	height:auto;
+}
+
+.wrapper {
+   
+   float:center;
+   position:relative;
+   width:100%;
+   height: auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.map_wrapper{
+	max-width:100%;
+	position:relative;
+}
+
+
+.map_wrapper svg {
+    position: absolute;
+    top: -0.5%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+.continent{
+	fill:none;
+	stroke: #000;
+	stroke-width:3px;
+	cursor: pointer; 
+	pointer-events: all; 
+}
+
+.continent:hover{
+	animation: hoverElement 2s linear infinite;
+}
+
+.map svg path:hover {
+    animation: hoverElement 2s linear infinite; 
+}
+
+@keyframes hoverElement { 
+    0% {
+        stroke: #000000;
+    }
+    50% {
+        stroke: #fc0000;
+    }
+    100% {
+        stroke: #000000; 
+    }
+}
+
+
+.tooltip {
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 500;
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    position: absolute;
+	left:0;
+	top: 0;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	
+}
