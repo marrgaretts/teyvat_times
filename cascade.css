@@ -135,7 +135,7 @@ size: 32px;
 h1 {
 	color:#9999FF;
 	font-size: 52px;
-	padding: 50px 1.5px 0 0;
+	padding: 50px 0 0 0;
 	top: 50px;
 	left: 50%;
 	transform: translate (50%, -50%);
@@ -146,7 +146,7 @@ h1::before{
   left: 2%;
   content:attr(content);
   position:absolute;
-  padding: 75px 1px 0 0;
+  padding: 76px 2px 0 0;
   width: 90px;
   overflow:hidden;
   white-space: nowrap;
