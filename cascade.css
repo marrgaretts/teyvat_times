@@ -393,11 +393,12 @@ h1::before{
 }
 
 .footer {
-	background-color:#d7cee0;
+	background-color:#241a2e;
 	backgroung-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 	position:absolute;
+	margin-top: 90%;
 	bottom: 0;
 	left: 0;
 	width: 100%;
