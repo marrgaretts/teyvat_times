@@ -384,12 +384,45 @@ footer {
 }
 
 .title-text h4 {
-	color: #47206e ;
-	font-size:20px;
+	color: #47206E;
+	font-size:40px;
 }
 
 .title-text h3 {
-	font-size: 40px;
+	font-size: 80px;
 }
 
+.footer {
+	background-color: #261833;
+	backgroung-repeat: no-repeat;
+	bascground-size: cover;
+	background-position: center;
+	position:absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	display:flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	
+}
 
+.footer-left, .footer-right {
+	flex-basis: 35%;
+	padding: 10px;
+	margin-bottom: 20px;	
+} 
+
+.footer-right {
+	text-align: right;	
+}
+
+.footer h5{
+	margin: 10px;
+	color:#ffffff;
+}
+
+.footer p {
+     line-height:35px;
+	color:#ffffff;
+}
