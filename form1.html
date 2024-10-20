@@ -34,19 +34,7 @@
 </menu>
 </nav>
 
-	 <div id="datetime"></div>
-    <script>
-      function updateTime() {
-        var today = new Date();
-        var date = today.toLocaleDateString();
-        var time = today.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit', second:'2-digit'});
-        var dateTimeString = date + ' ' + time;
-        document.getElementById('datetime').innerHTML = dateTimeString;
-      }
-
-      updateTime();
-      setInterval(updateTime, 1000);
-    </script>
+	
 
 	
 </header>
