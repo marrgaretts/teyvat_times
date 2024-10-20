@@ -144,7 +144,7 @@ h1 {
 h1::before{
   content:attr(content);
   position:absolute;
-  padding: 78px 0 0 3px;
+  padding: 77px 0 0 2px;
   width: 90px;
   overflow:hidden;
   white-space: nowrap;
