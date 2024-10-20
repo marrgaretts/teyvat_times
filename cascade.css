@@ -380,9 +380,8 @@ h1::before{
 	background-color:#241A2E;
 	backgroung-repeat: no-repeat;
 	background-size: cover;
-	background-position: bottom;
+	background-position: 50% 75%;
 	position:absolute;
-	left: 0;
 	width: 100%;
 	display:flex;
 	justify-content: space-around;
