@@ -384,7 +384,7 @@ h1::before{
 	position:absolute;
 	width: 100%;
 	display:flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	flex-wrap: wrap;
 	
 }
@@ -400,7 +400,7 @@ h1::before{
 }
 
 .footer h3{
-	fontsize: 24px;
+	font-size: 24px;
 	margin: 10px;
 	color:#fff;
 }
