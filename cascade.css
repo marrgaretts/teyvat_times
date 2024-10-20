@@ -380,7 +380,7 @@ h1::before{
 	background-color:#241A2E;
 	backgroung-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;
+	background-position: bottom;
 	position:absolute;
 	margin-top: 90%;
 	bottom: 0;
