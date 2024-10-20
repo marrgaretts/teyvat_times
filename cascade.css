@@ -375,22 +375,6 @@ h1::before{
 	position:relative;	
 }
 
-.title-text {
-	textalign: center;
-	position: absolute;
-	top:65%;
-	left:50%;
-	transform: translate (-50% -50%)
-}
-
-.title-text h4 {
-	color: #47206E;
-	font-size:40px;
-}
-
-.title-text h3 {
-	font-size: 80px;
-}
 
 .footer {
 	background-color:#241a2e;
@@ -418,7 +402,7 @@ h1::before{
 	text-align: right;	
 }
 
-.footer h5{
+.footer h3{
 	fontsize: 24px;
 	margin: 10px;
 	color:#fff;
