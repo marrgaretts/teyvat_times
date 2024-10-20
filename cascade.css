@@ -395,7 +395,7 @@ h1::before{
 .footer {
 	background-color: #261833;
 	backgroung-repeat: no-repeat;
-	baskground-size: cover;
+	background-size: cover;
 	background-position: center;
 	position:absolute;
 	bottom: 0;
