@@ -382,8 +382,8 @@ h1::before{
 	background-size: cover;
 	
 	position:relative;
-	top: 4000px;
-  left: 0;
+	top: 1500px;
+        left: 0;
 	bottom:0;
 	width: 100%;
 	display:flex;
