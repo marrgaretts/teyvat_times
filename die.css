@@ -137,9 +137,10 @@ h1 {font-size:50px !important; line-height:60px !important;}
 
        .menu {
             display: flex;
-            gap: 25px; /* Расстояние между элементами */
+            gap: 50px; /* Расстояние между элементами */
 			justify-content: center;
             align-items: center;
+			
         }
         .menu img {
             width: 50px;
@@ -164,18 +165,21 @@ h1 {font-size:50px !important; line-height:60px !important;}
         }
 		
 		 /* Стили для списка персонажей */
-      .character-list {
+       .character-list {
             display: flex;
             justify-content: center; /* Выровнять по центру */
-            gap: 20px; /* Отступы между персонажами */
-            margin-top: 50px; /* Отступ сверху */
-            padding: 0 50px; /* Отступы по бокам */
-            box-sizing: border-box; /* Учесть паддинги в расчет ширины */
-            width: 100%; /* Ширина контейнера персонажей на всю ширину */
+            flex-wrap: wrap; /* Перенос элементов на новую строку */
+            gap: 100px; /* Отступы между персонажами */
+            margin-top: 50px;
+            padding: 50px 75px;
+            box-sizing: border-box;
+            width: 100%;
         }
+		
         .character {
             text-align: center;
-            transition: all 0.3s ease; /* Плавный переход для эффектов */
+            transition: all 0.3s ease;
+			/* Плавный переход для эффектов */
         }
         .character img {
             width: 100px;
