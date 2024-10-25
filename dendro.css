@@ -137,9 +137,10 @@ h1 {font-size:50px !important; line-height:60px !important;}
 
        .menu {
             display: flex;
-            gap: 25px; /* Расстояние между элементами */
+            gap: 50px; /* Расстояние между элементами */
 			justify-content: center;
             align-items: center;
+			
         }
         .menu img {
             width: 50px;
@@ -162,67 +163,36 @@ h1 {font-size:50px !important; line-height:60px !important;}
             border-radius: 30px; /* Небольшие скругленные углы */
 			  box-shadow: 0px 0px 20px 5px;
         }
-		 h1 {
-            margin-top: 20px;
-            font-size: 24px;
+		
+		 /* Стили для списка персонажей */
+       .character-list {
+            display: flex;
+            justify-content: center; /* Выровнять по центру */
+            flex-wrap: wrap; /* Перенос элементов на новую строку */
+            gap: 100px; /* Отступы между персонажами */
+            margin-top: 50px;
+            padding: 50px 75px;
+            box-sizing: border-box;
+            width: 100%;
         }
-
-/* Основний контейнер для списку персонажів */
-.character-list {
-    display: flex;
-    flex-wrap: wrap; /* Дозволяє перенос персонажів на нові рядки */
-    justify-content: space-evenly; /* Рівномірно розподіляє персонажів по рядках */
-    gap: 20px; /* Відступи між персонажами */
-    padding: 20px;
-    margin: 0 auto;
-}
-
-/* Стиль для окремого персонажа */
-.character {
-    text-align: center;
-    flex-basis: calc(25% - 20px); /* Кожен персонаж займає 25% ширини */
-    box-sizing: border-box;
-    transition: transform 0.3s ease-in-out;
-}
-
-.character:hover {
-    transform: scale(1.1); /* Збільшення при наведенні */
-}
-
-/* Стиль для фотографії персонажа */
-.character-image {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%; /* Круглі зображення */
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Тінь для фотографій */
-}
-
-.character:hover .character-image {
-    transform: scale(1.2) rotate(5deg); /* Ефект збільшення і повороту при наведенні */
-    box-shadow: 0px 0px 20px 5px rgba(153, 103, 156, 0.6); /* Яскравіша тінь */
-}
-
-/* Стиль для імені персонажа */
-.character-name {
-    margin-top: 10px;
-    font-size: 18px;
-    color: #fff;
-    font-family: 'Arial', sans-serif;
-    font-weight: bold;
-}
-
-/* Адаптивний дизайн для мобільних пристроїв */
-@media (max-width: 768px) {
-    .character {
-        flex-basis: calc(50% - 20px); /* 2 персонажі на рядок на планшетах */
-    }
-}
-
-@media (max-width: 480px) {
-    .character {
-        flex-basis: calc(100% - 20px); /* 1 персонаж на рядок на мобільних пристроях */
-    }
-}
-
-
+		
+        .character {
+            text-align: center;
+            transition: all 0.3s ease;
+			/* Плавный переход для эффектов */
+        }
+        .character img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%; /* Круглые изображения */
+            transition: all 0.3s ease;
+        }
+        .character:hover img {
+            box-shadow: 0px 0px 20px 5px;
+            color:#99679c;			/* Яркое свечение при наведении */
+        }
+        .character-name {
+            margin-top: 10px;
+            font-size: 20px;
+            color: #fff;
+        }
